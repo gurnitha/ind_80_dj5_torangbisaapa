@@ -25,3 +25,11 @@
 
 
 ## 2. PAGES
+
+#### 1. Membuat laman home
+
+        modified:   README.md
+        new file:   app/main/urls.py
+        modified:   app/main/views.py
+        modified:   config/urls.py
+        new file:   templates/main/index.html

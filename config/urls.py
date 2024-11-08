@@ -2,19 +2,21 @@
 
 # Modul Django
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
-# my module
-from app.main import views
-
 
 urlpatterns = [
+
     # main
-    path('halodunia/', views.halodunia),
+    # http://127.0.0.1:8000/
+    path('', include('app.main.urls', namespace='main')),
+
     # admin
+    # http://127.0.0.1:8000/admin
     path('admin/', admin.site.urls),
+
 ]
 
 if settings.DEBUG:

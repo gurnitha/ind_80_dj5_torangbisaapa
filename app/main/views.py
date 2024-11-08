@@ -1,7 +1,10 @@
+# app/main/views.py
+
+# django modules
 from django.shortcuts import render
-from django.http import HttpResponse
+
+
 # Create your views here.
 
-def halodunia(request):
-	html = '<h1>Halo Dunia!</h1>'
-	return HttpResponse(html)
+def home_view(request):
+	return render(request, 'main/index.html')

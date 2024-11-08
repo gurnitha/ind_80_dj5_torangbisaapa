@@ -22,3 +22,6 @@
         new file:   config/wsgi.py
         new file:   manage.py
         new file:   requirements.txt
+
+
+## 2. PAGES

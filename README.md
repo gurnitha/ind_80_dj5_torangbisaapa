@@ -73,6 +73,9 @@
 
         Note:
         https://dev.to/serhatteker/django-template-block-super-12o4
-        
+
         It's basically the same concept for super in any OOP; you call the
         constructor of the parent class to include whatever code is in there, instead of just overriding it.
+
+
+## 4. FILE STATIS DAN MEDIA

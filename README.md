@@ -54,3 +54,12 @@
 
 
 ## 3. TEMPLATE INHERITANCE
+
+#### 1. Membuat base template
+
+        (venv312512) λ touch templates\base.html
+
+        modified:   README.md
+        new file:   templates/base.html
+        modified:   templates/main/about.html
+        modified:   templates/main/index.html

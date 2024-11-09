@@ -51,3 +51,6 @@
         modified:   app/main/urls.py
         modified:   templates/main/about.html
         modified:   templates/main/index.html
+
+
+## 3. TEMPLATE INHERITANCE

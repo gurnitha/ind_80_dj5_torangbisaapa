@@ -90,3 +90,9 @@
         modified:   templates/base.html
         modified:   templates/main/about.html
         modified:   templates/main/index.html
+
+#### 2. Menggunakan file media 'images'
+
+        modified:   README.md
+        new file:   static/assets/images/test_image.png
+        modified:   templates/main/index.html

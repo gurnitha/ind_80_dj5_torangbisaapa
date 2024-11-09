@@ -1,5 +1,6 @@
 <!-- templates/main/index.html -->
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %} 
 	{{ block.super }} Home  
@@ -9,6 +10,8 @@
 
 	<h1 class="home">Torang Bisa Apa?</h1>
 	<h3>Selamat Datang Teman ...</h3>
+
+	<img src="{% static 'assets/images/test_image.png' %}">
 
 	<p>Biarkan dunia tahu: torang bisa apa ...</p>
 

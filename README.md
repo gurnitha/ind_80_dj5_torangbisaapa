@@ -44,3 +44,10 @@
         modified:   app/main/urls.py
         modified:   app/main/views.py
         new file:   templates/main/about.html
+
+#### 3. Membuat navigasi
+
+        modified:   README.md
+        modified:   app/main/urls.py
+        modified:   templates/main/about.html
+        modified:   templates/main/index.html

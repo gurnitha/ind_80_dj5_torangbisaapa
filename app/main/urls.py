@@ -15,5 +15,5 @@ urlpatterns = [
 
 	# http://127.0.0.1:8000/about/
     path('about/', about_view, name='about'),
-    
+
 ]

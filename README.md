@@ -79,3 +79,14 @@
 
 
 ## 4. FILE STATIS DAN MEDIA
+
+#### 1. Menggunakan file statis 'css'
+
+        (venv312512) λ mkdir static\assets\css
+        (venv312512) λ touch static\assets\css\test.css
+
+        modified:   README.md
+        new file:   static/assets/css/test.css
+        modified:   templates/base.html
+        modified:   templates/main/about.html
+        modified:   templates/main/index.html

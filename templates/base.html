@@ -1,5 +1,6 @@
 <!-- templates/main/index.html -->
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
 	<meta charset="utf-8">
@@ -7,6 +8,7 @@
 	<title>
 		{% block title %} Torang Bisa Apa |  {% endblock title %}
 	</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/test.css' %}">
 </head>
 <body>
 

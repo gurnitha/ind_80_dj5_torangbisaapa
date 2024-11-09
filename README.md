@@ -28,8 +28,19 @@
 
 #### 1. Membuat laman home
 
+        # Membuat folder dan file
+        (venv312512) λ mkdir templates\main
+        (venv312512) λ touch templates\main\index.html
+
         modified:   README.md
         new file:   app/main/urls.py
         modified:   app/main/views.py
         modified:   config/urls.py
         new file:   templates/main/index.html
+
+#### 2. Membuat laman about
+
+        modified:   README.md
+        modified:   app/main/urls.py
+        modified:   app/main/views.py
+        new file:   templates/main/about.html
